@@ -13,7 +13,7 @@ def open_driver(url):
     driver = webdriver.Chrome(options=options)
     driver.get(url)
     driver.implicitly_wait(7) # set a waiting time limit for the browser driver
-    # driver.maximize_window()
+    driver.maximize_window()
     return driver
 
 def search_a_keyword(keyword):
