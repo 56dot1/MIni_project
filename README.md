@@ -1,6 +1,6 @@
 # Mini_project01_crawling
 
-In this project, you will learn how to use Selenium (Python) to control a WebDriver behavior.
+In this project, you will learn how to use Selenium (Python) to control a WebDriver.
 # Your tasks
 
 ### CDS Shop: http://10.113.178.219
