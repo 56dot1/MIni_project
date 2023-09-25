@@ -9,7 +9,7 @@ You are asked to implement mini_project_1.py using selenium_demo.py as a referen
 - The account is {student_id_7_dgits_lower_case}@um.edu.mo
 - The default password is {student_id_7_dgits_lower_case} (please change it when you first time login to the CDS shop)
 
-## (1) Place the order (40%)
+<!--## (1) Place the order (40%)
 
 Your task is to make an order to a specific item (IPHONE 11 PRO 256GB MEMORY) on the system using your own account. Your script should be able to complete the following tasks automatically. 
 1. Login from the first pages;
@@ -55,7 +55,7 @@ We will release our limited items (of a specific quota) on **specific dates** TB
 - During the competition, the TA will montior the system and help to remove those wrongly placed order at the back-end management system. 
 - If we suspect any bad behavior from your codes (e.g., placing 200 orders at once), we may **ban your account** for the next few days;
 
-**Quota for different days and mark distribution**
+**Quota for different days and mark distribution**-->
 
 <!-- - Nov 1 Quota: 200 (1%) Name of the limited item: **GeForce RTX 4090 Liquid Cooling**
 - Nov 3 Quota: 150 (2%) Name of the limited item: **Figure Anya Forger A Prize**
