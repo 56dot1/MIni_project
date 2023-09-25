@@ -1,6 +1,6 @@
 # Mini_project01_crawling
 
-In this project, you will learn how to use Selenium (Python) to interactive with the web (by [WebDriver](https://chromedriver.chromium.org/downloads)).
+In this project, you will learn how to use Selenium (Python) to control a WebDriver behavior.
 # Your tasks
 
 ### CDS Shop: http://10.113.178.219
