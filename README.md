@@ -68,7 +68,7 @@ The mark is given based on the purchase record of **your account**.
 **Hints**
 
 - Please change the password of your account;
-- **Optimize** your code, e.g., try to replace the sleep function by wait until;
+- **Optimize** your code, e.g., try to replace the sleep function by [wait until](https://www.selenium.dev/documentation/webdriver/waits/);
 - Learn how to use **headless selenium** to shorten the ordering time;
 - You should first test your order script on those unlimited items;
 - Nov 1 is a good day to test your script as the item quota is sufficient for everyone;
