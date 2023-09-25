@@ -44,9 +44,9 @@ Your task is to make the orders to the top-5 expensive products on the system us
 
 ## (4) Place the order to the limited items (15%)
 
-In the last part of Project 01, we will simulate a competitive environment (first-come first-serve manner) that allows you to place orders to items of limited quotas. This project can be treated as a practice for 11-11 (or any other festival after).
+In the last part of Project 01, we will simulate a competitive environment (first-come first-serve manner) that allows you to place orders to items of limited quotas. 
 
-We will release our limited items (of a specific quota) on **specific dates** (Nov 1, 3, 5, 6, 7) and **specific time interval** (23:00-23:10). 
+We will release our limited items (of a specific quota) on **specific dates** TBA and **specific time interval** TBA. 
 - The name of the limited items will be released later;
 - The limit item will appear on the CDS Shop at a random timestamp in that interval; 
 - Everyone only allows to place one order per limited item. 
@@ -54,7 +54,6 @@ We will release our limited items (of a specific quota) on **specific dates** (N
 - If we suspect any bad behavior from your codes (e.g., placing 200 orders at once), we may **ban your account** for the next few days;
 
 **Quota for different days and mark distribution**
-To Be Confirm
 
 <!-- - Nov 1 Quota: 200 (1%) Name of the limited item: **GeForce RTX 4090 Liquid Cooling**
 - Nov 3 Quota: 150 (2%) Name of the limited item: **Figure Anya Forger A Prize**
