@@ -61,9 +61,9 @@ We will release our limited items (of a specific quota) on **specific dates** TB
 - Nov 3 Quota: 150 (2%) Name of the limited item: **Figure Anya Forger A Prize**
 - Nov 5 Quota: 100 (3%) Name of the limited item: **SpaceX Extends Satellite Internet To RVs**
 - Nov 6 Quota: 50  (4%) Name of the limited item: **SAO Nerve Gear and Registration Key**
-- Nov 7 Quota: 10  (5%) Name of the limited item: **Pak The Merge** -->
+- Nov 7 Quota: 10  (5%) Name of the limited item: **Pak The Merge**
 
-The mark is given based on the purchase record of **your account**.
+The mark is given based on the purchase record of **your account**.-->
 
 **Hints**
 
