@@ -4,7 +4,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.expected_conditions import *
 import time
-import json
 import os
 
 #---------------------------------------------------------------------------------------
@@ -46,50 +45,49 @@ def save_the_result(produts):
 def t1_place_the_order(product_name:str):
     def login():
         pass
-    def search_item(product_name:str):
+    def search_a_keyword(product_name:str):
         pass
     def add_to_cart():
         pass
     def place_order():
         pass
+    def hack_captcha():
+        pass
     login()
-    search_item(product_name)
+    search_a_keyword(product_name)
     add_to_cart()
     place_order()
+    hack_captcha()
 
 
-# Task 2: Find the top-5 most expensive products
-def t2_find_top_5():
-    top_5_result = []
+# Task 2: Find the top-x for a given keyword
+def t2_find_top_x(x, keyword):
+    top_x_result = []
     product = {'name':'','price':0}
+    search_a_keyword(keyword)
     # Please note that the price is a floating number
     def get_all_product_price_in_one_page():
         pass
     def go_to_next_page():
         pass
-    def save_dict_to_json():
-        with open('top_5_result.json','w') as f:
-            json.dump(top_5_result,f,indent=4)
+    def save_dict_to_csv():
+        with open('top_%d_result_of_%s.csv'%(x, keyword),'w') as f:
+            pass
         pass
     while True:
         get_all_product_price_in_one_page()
         go_to_next_page()
         break
         #you should break the loop if next_page does not exist 
-    save_dict_to_json()
-    return top_5_result
+    save_dict_to_csv()
+    return top_x_result
 
 
 # Task 3: Place the order to the top-5 products you found in task-2
 def t3_order_top5():
-    top_5_result = t2_find_top_5()
-    for product in top_5_result:
+    top_x_result = t2_find_top_x()
+    for product in top_x_result:
         t1_place_the_order(product)
-
-
-# Task 4: Place the order to the limited items
-def t4_buy_limited_product():
-    pass
 
 
 url = 'http://10.113.178.219' # the url of shopping cart
@@ -97,11 +95,13 @@ operate_delay = 1 # the time gap between each process
 # end of parameters declaration
 
 
-for task in [t1_place_the_order,t2_find_top_5,t3_order_top5,t4_buy_limited_product]:
+for task in [t1_place_the_order,t2_find_top_x,t3_order_top5]:
     driver = open_driver(url) 
     wait = WebDriverWait(driver, 10) # set a maximum implicit waiting time for the browser driver
     if task == t1_place_the_order:
         task('IPHONE 11 PRO 256GB MEMORY')
+    elif task == t2_find_top_x:
+        task(3, 'apple')
     else:
         task()
     driver.close()
