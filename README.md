@@ -27,13 +27,16 @@ Your task is to make an order to a specific item (e.g. IPHONE 11 PRO 256GB MEMOR
 Your task is to collect the price of all products (of all pages) and return the top-x(e.g. 3) most expensive products as a list of dictionary and save it into csv format. The result contains the proudct name, price and description in descending order. 
 
 e.g.:
+'''
 product_name,product_price,description
+
+APPLE PENCIL(2ND GENERATION),296.99,Compatible with iPad mini(6th generation),...
 APPLE MACBOOK AIR 11 INCHES,269,ncludes: 1-Pack MacBook Air 11 inches MD223LL/A...
 APPLE PENCIL(2ND GENERATION),296.99,Compatible with iPad mini(6th generation),...
+
 APPLE WATCH SERIES 5,249.99,GPS;Always-On Retina display;30% larger screen;Swim...
+'''
 
-
-```
 
 ## (3) Place your orders on the top-5 products in task-2 (15%)
 
