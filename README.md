@@ -24,7 +24,7 @@ Your task is to make an order to a specific item (e.g. IPHONE 11 PRO 256GB MEMOR
 - https://github.com/sml2h3/ddddocr
 
 ## (2) Find the top-x most expensive products for a given keyword (40%)
-Your task is to collect the price of all products (of all pages) and return the top-5 most expensive products as a list of dictionary and save it into csv format. The result contains the proudct name, price and description in descending order. 
+Your task is to collect the price of all products (of all pages) and return the top-x(e.g. 3) most expensive products as a list of dictionary and save it into csv format. The result contains the proudct name, price and description in descending order. 
 
 e.g.:
 product_name,product_price,description
