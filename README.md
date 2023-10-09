@@ -3,7 +3,7 @@
 In this project, you will learn how to use Selenium (Python) to control a WebDriver.
 You are asked to implement mini_project_1.py using selenium_demo.py as a reference.
 
-# Your tasks (TBA)
+# Your tasks
 
 ### CDS Shop: http://10.113.178.219
 - The account is {student_id_7_dgits_lower_case}@um.edu.mo
