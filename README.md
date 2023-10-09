@@ -29,9 +29,9 @@ Your task is to collect the price of all products (of all pages) and return the 
 e.g.:
 ```
 product_name,product_price,description
-APPLE PENCIL(2ND GENERATION),296.99,Compatible with iPad mini(6th generation),...
-APPLE MACBOOK AIR 11 INCHES,269,ncludes: 1-Pack MacBook Air 11 inches MD223LL/A...
-APPLE WATCH SERIES 5,249.99,GPS;Always-On Retina display;30% larger screen;Swim...
+"APPLE PENCIL(2ND GENERATION)",296.99,"Compatible with iPad mini(6th generation),..."
+"APPLE MACBOOK AIR 11 INCHES",269,"Includes: 1-Pack MacBook Air 11 inches MD223LL/A..."
+"APPLE WATCH SERIES 5",249.99,"GPS;Always-On Retina display;30% larger screen;Swim..."
 ```
 
 ## (3) Place your orders on the top-X products in task-2 (15%)
