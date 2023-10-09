@@ -23,8 +23,8 @@ Your task is to make an order to a specific item (e.g. IPHONE 11 PRO 256GB MEMOR
 - https://stackoverflow.com/questions/923885/capture-html-canvas-as-gif-jpg-png-pdf
 - https://github.com/sml2h3/ddddocr
 
-## (2) Find the top-X most expensive products for a given keyword (40%)
-Your task is to collect the price of all products (of all pages) and return the top-X(e.g. 3) most expensive products as a list of dictionary and save it into csv format. The result contains the proudct name, price and description in descending order. 
+## (2) Find the top-x most expensive products for a given keyword (40%)
+Your task is to collect the price of all products (of all pages) and return the top-x(e.g. 3) most expensive products as a list of dictionary and save it into csv format. The result contains the proudct name, price and description in descending order. 
 
 e.g.:
 ```
@@ -34,7 +34,7 @@ product_name,product_price,description
 "APPLE WATCH SERIES 5",249.99,"GPS;Always-On Retina display;30% larger screen;Swim..."
 ```
 
-## (3) Place your orders on the top-X products in task-2 (15%)
+## (3) Place your orders on the top-x products in task-2 (15%)
 
 Your task is to make the orders to the top-5 expensive products on the system using your own account.
 
